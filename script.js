@@ -118,3 +118,15 @@
   <button id="button">Tell me a Joke</button>
   <audio id="audio" controls></audio>
 </div>;
+button:hover {
+    filter: brightness(95%);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  button:disabled {
+    cursor: default;
+    filter: brightness(30%);
+  }
